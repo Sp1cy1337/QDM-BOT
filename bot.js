@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!top10') {
-    	message.reply();
+    	message.reply('1');
   	}
 });
 
